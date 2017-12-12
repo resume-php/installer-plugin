@@ -1,8 +1,8 @@
 <?php
 
-namespace Sven\:namespace\Tests;
+namespace Sven\ResumeCliInstallerPlugin\Tests;
 
-use Sven\:namespace\ServiceProvider;
+use Sven\ResumeCliInstallerPlugin\ServiceProvider;
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 abstract class TestCase extends AbstractPackageTestCase

@@ -13,4 +13,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
-[Unreleased]: https://github.com/svenluijten/:package/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/svenluijten/resume-cli-installer-plugin/compare/1.0.0...HEAD

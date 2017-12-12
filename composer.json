@@ -1,5 +1,5 @@
 {
-    "name": "sven/:package",
+    "name": "sven/resume-cli-installer-plugin",
     "type": "composer-plugin",
     "description": "",
     "keywords": [],
@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Sven\\ResumeInstallerPlugin\\": "src/"
+            "Sven\\ResumeCliInstallerPlugin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sven\\ResumeInstallerPlugin\\Tests\\": "tests/"
+            "Sven\\ResumeCliInstallerPlugin\\Tests\\": "tests/"
         }
     },
     "config": {
         "sort-packages": true
     },
     "extra": {
-        "class": "Sven\\ResumeInstallerPlugin\\ThemeInstallerPlugin"
+        "class": "Sven\\ResumeCliInstallerPlugin\\ThemeInstallerPlugin"
     }
 }

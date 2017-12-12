@@ -1,6 +1,6 @@
-![:package](:hero)
+![resume-cli-installer-plugin](:hero)
 
-# :package
+# resume-cli-installer-plugin
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -12,8 +12,7 @@ Short description of the package. What does it do and why should people download
 it? Brag a bit but don't exaggerate. Talk about what's to come and tease small
 pieces of functionality.
 
-> :namespace
-> :package
+> resume-cli-installer-plugin
 > :styleci
 > :hero
 
@@ -21,7 +20,6 @@ pieces of functionality.
 ## Index
 - [Installation](#installation)
   - [Downloading](#downloading)
-  - [Registering the service provider](#registering-the-service-provider)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,7 +31,7 @@ You'll have to follow a couple of simple steps to install this package.
 Via [composer](http://getcomposer.org):
 
 ```bash
-$ composer require sven/:package
+$ composer require sven/resume-cli-installer-plugin
 ```
 
 Or add the package to your dependencies in `composer.json` and run
@@ -42,26 +40,10 @@ Or add the package to your dependencies in `composer.json` and run
 ```json
 {
     "require": {
-        "sven/:package": "*"
+        "sven/resume-cli-installer-plugin": "^1.0"
     }
 }
 ```
-
-
-### Registering the service provider
-> Is this a Laravel package?
-
-Next, add the `ServiceProvider` to your `providers` array in `config/app.php`:
-
-```php
-'providers' => [
-    ...
-    Sven\:namespace\ServiceProvider::class,
-];
-```
-
-If you would like to load this package in certain environments only, take a look
-at [sven/env-providers](https://github.com/svenluijten/env-providers).
 
 ## Usage
 Some examples of the code. How should people use it, what options does this package
@@ -77,16 +59,16 @@ welcome. Make sure to read through the [CONTRIBUTING.md](CONTRIBUTING.md) first,
 though. See the [contributors page](../../graphs/contributors) for all contributors.
 
 ## License
-`sven/:package` is licensed under the MIT License (MIT). Please see the
+`sven/resume-cli-installer-plugin` is licensed under the MIT License (MIT). Please see the
 [license file](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/sven/:package.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/sven/resume-cli-installer-plugin.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/sven/:package.svg?style=flat-square
-[ico-circleci]: https://img.shields.io/circleci/project/github/svenluijten/:package.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/sven/resume-cli-installer-plugin.svg?style=flat-square
+[ico-circleci]: https://img.shields.io/circleci/project/github/svenluijten/resume-cli-installer-plugin.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/:styleci/shield
 
-[link-packagist]: https://packagist.org/packages/sven/:package
-[link-downloads]: https://packagist.org/packages/sven/:package
-[link-circleci]: https://circleci.com/gh/svenluijten/:package
+[link-packagist]: https://packagist.org/packages/sven/resume-cli-installer-plugin
+[link-downloads]: https://packagist.org/packages/sven/resume-cli-installer-plugin
+[link-circleci]: https://circleci.com/gh/svenluijten/resume-cli-installer-plugin
 [link-styleci]: https://styleci.io/repos/:styleci
