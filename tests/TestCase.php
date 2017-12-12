@@ -2,22 +2,10 @@
 
 namespace Sven\ResumeCliInstallerPlugin\Tests;
 
-use Sven\ResumeCliInstallerPlugin\ServiceProvider;
-use GrahamCampbell\TestBench\AbstractPackageTestCase;
+use Composer\TestCase as ComposerTestCase;
 
-abstract class TestCase extends AbstractPackageTestCase
+abstract class TestCase extends ComposerTestCase
 {
-    /**
-     * Get the service provider class.
-     *
-     * @param \Illuminate\Contracts\Foundation\Application $app
-     * @return string
-     */
-    protected function getServiceProviderClass($app)
-    {
-        return ServiceProvider::class;
-    }
-
     /**
      * Set up the testing suite.
      */
