@@ -1,6 +1,6 @@
 ![resume-cli-installer-plugin](:hero)
 
-# resume-cli-installer-plugin
+# Resume Cli Installer Plugin
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -8,14 +8,8 @@
 [![Build Status][ico-circleci]][link-circleci]
 [![StyleCI][ico-styleci]][link-styleci]
 
-Short description of the package. What does it do and why should people download
-it? Brag a bit but don't exaggerate. Talk about what's to come and tease small
-pieces of functionality.
-
-> resume-cli-installer-plugin
-> :styleci
-> :hero
-
+This is the composer plugin used to install themes for [Resume Cli](https://github.com/svenluijten/resume-cli)
+in the right place. 
 
 ## Index
 - [Installation](#installation)
@@ -46,12 +40,8 @@ Or add the package to your dependencies in `composer.json` and run
 ```
 
 ## Usage
-Some examples of the code. How should people use it, what options does this package
-provide? Should people be wary of some functionality?
-
-```php
-Maybe some code?
-```
+This plugin isn't meant to be used independently from [Resume Cli](https://github.com/svenluijten/resume-cli).
+The plugin does all the work behind the scenes to make everything about that work smoothly.
 
 ## Contributing
 All contributions (pull requests, issues and feature requests) are
