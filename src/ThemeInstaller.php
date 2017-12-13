@@ -12,7 +12,7 @@ class ThemeInstaller extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return strtolower($packageType) === 'resume-cli-theme';
+        return strtolower($packageType) === 'resume-theme';
     }
 
     /**
