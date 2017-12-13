@@ -1,6 +1,6 @@
 <?php
 
-namespace Sven\ResumeCliInstallerPlugin;
+namespace Resume\InstallerPlugin;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;

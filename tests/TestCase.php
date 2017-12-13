@@ -1,6 +1,6 @@
 <?php
 
-namespace Sven\ResumeCliInstallerPlugin\Tests;
+namespace Resume\InstallerPlugin\Tests;
 
 use Composer\TestCase as ComposerTestCase;
 
