@@ -1,6 +1,6 @@
-![resume-cli-installer-plugin](:hero)
+![resume-installer-plugin](:hero)
 
-# Resume Cli Installer Plugin
+# Resume Installer Plugin
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -25,7 +25,7 @@ You'll have to follow a couple of simple steps to install this package.
 Via [composer](http://getcomposer.org):
 
 ```bash
-$ composer require sven/resume-cli-installer-plugin
+$ composer require resume/installer-plugin
 ```
 
 Or add the package to your dependencies in `composer.json` and run
@@ -34,13 +34,13 @@ Or add the package to your dependencies in `composer.json` and run
 ```json
 {
     "require": {
-        "sven/resume-cli-installer-plugin": "^1.0"
+        "resume/installer-plugin": "^1.0"
     }
 }
 ```
 
 ## Usage
-This plugin isn't meant to be used independently from [Resume Cli](https://github.com/svenluijten/resume-cli).
+This plugin isn't meant to be used independently from [Resume Cli](https://github.com/resume-php/cli).
 The plugin does all the work behind the scenes to make everything about that work smoothly.
 
 ## Contributing
@@ -49,16 +49,16 @@ welcome. Make sure to read through the [CONTRIBUTING.md](CONTRIBUTING.md) first,
 though. See the [contributors page](../../graphs/contributors) for all contributors.
 
 ## License
-`sven/resume-cli-installer-plugin` is licensed under the MIT License (MIT). Please see the
+`resume/installer-plugin` is licensed under the MIT License (MIT). Please see the
 [license file](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/sven/resume-cli-installer-plugin.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/resume/installer-plugin.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/sven/resume-cli-installer-plugin.svg?style=flat-square
-[ico-circleci]: https://img.shields.io/circleci/project/github/svenluijten/resume-cli-installer-plugin.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/resume/installer-plugin.svg?style=flat-square
+[ico-circleci]: https://img.shields.io/circleci/project/github/resume-php/installer-plugin.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/:styleci/shield
 
-[link-packagist]: https://packagist.org/packages/sven/resume-cli-installer-plugin
-[link-downloads]: https://packagist.org/packages/sven/resume-cli-installer-plugin
-[link-circleci]: https://circleci.com/gh/svenluijten/resume-cli-installer-plugin
+[link-packagist]: https://packagist.org/packages/resume/installer-plugin
+[link-downloads]: https://packagist.org/packages/resume/installer-plugin
+[link-circleci]: https://circleci.com/gh/resume-php/installer-plugin
 [link-styleci]: https://styleci.io/repos/:styleci
