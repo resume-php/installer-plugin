@@ -2,9 +2,9 @@
 
 namespace Resume\InstallerPlugin\Tests;
 
-use Composer\TestCase as ComposerTestCase;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 
-abstract class TestCase extends ComposerTestCase
+abstract class TestCase extends BaseTestCase
 {
     /**
      * Set up the testing suite.
@@ -20,5 +20,24 @@ abstract class TestCase extends ComposerTestCase
     public function tearDown()
     {
         //
+    }
+
+    protected function deleteDir($path)
+    {
+        if (is_file($path)) {
+            unlink($path);
+
+            return $this;
+        }
+
+        if (is_dir($path)) {
+            $files = glob($path.'*', GLOB_MARK);
+
+            foreach ($files as $file) {
+                $this->deleteDir($file);
+            }
+
+            rmdir($path);
+        }
     }
 }

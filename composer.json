@@ -4,6 +4,7 @@
     "description": "",
     "keywords": [],
     "license": "MIT",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Sven Luijten",
@@ -16,7 +17,8 @@
         "composer-plugin-api": "^1.0"
     },
     "require-dev": {
-        "composer/composer": "^1.3"
+        "composer/composer": "^1.3",
+        "phpunit/phpunit": "^6.5"
     },
     "autoload": {
         "psr-4": {
@@ -33,5 +35,8 @@
     },
     "extra": {
         "class": "Resume\\InstallerPlugin\\ThemeInstallerPlugin"
-    }
+    },
+    "repositories": [
+        { "type": "path", "url": "../cli" }
+    ]
 }
